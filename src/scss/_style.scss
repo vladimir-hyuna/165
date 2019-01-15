@@ -152,18 +152,34 @@ $hero-full-screen-text-color: $white;
     justify-content: space-between;
     text-align: center;
     color: $hero-full-screen-text-color;
+    @media #{$small-only} {
+       h1 {
+        font-size: 2rem;
+      }
 
-    h1 {
-      margin-bottom: 5vh;
-      font-size: 3.5rem;
+      p {
+        font-size: 1rem;
+      }
     }
 
-    p {
-      margin-bottom: 5vh;
-    	font-size: 1.5rem;
-    }
-  }
+    @media screen and #{breakpoint(medium)} {
+      .title {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        font-size: 3.5rem;
+      }
 
+      p {
+        margin-bottom: 20vh;
+        font-size: 1.5rem;
+      }
+      a{
+        margin-bottom: 5vh;
+      }
+    }
+    }
+      
+  
   .top-content-section {
     width: 100%;
   }
