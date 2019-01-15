@@ -212,28 +212,6 @@ $marketing-site-three-up-width: 80vw;
     font-size: 3rem;
     margin-bottom: 3vh;
     padding-bottom: 1vh;
-    &:before {
-      content: '';
-      position: absolute;
-      width: 20%;
-      height: 2px;
-      bottom: 5px;
-      left: 50%;
-      transform: translateX(-50%);
-      display: block;
-      background: $white;
-    }
-    &:after {
-      content: '';
-      position: absolute;
-      width: 20%;
-      height: 2px;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      display: block;
-      background: $white;
-    }
   }
   .row {
     max-width: $marketing-site-three-up-width;
@@ -282,7 +260,7 @@ $marketing-site-hero-height: 100vh;
   color: $white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 
   h1 {
     font-size: 3rem;
