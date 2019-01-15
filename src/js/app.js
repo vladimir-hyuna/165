@@ -56,16 +56,16 @@ $(document).ready(function() {
     });
 
     contactForm.ajaxEmailSender({
-        domain: "strovildlimited.com",
-        autorizationToken: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdHJvdmlsZGxpbWl0ZWQuY29tIiwiaWF0IjoxNTQzNDE5NjI0MjY0LCJleHAiOjE1NzQ5NTU2MjQyNjQsImF1ZCI6InN0cm92aWxkbGltaXRlZC5jb20iLCJzdWIiOiJzdHJvdmlsZGxpbWl0ZWQuY29tIn0.tIZxMRbfE5M8HFUYTX-rEPyuYuSEpDEKl5818nWmoGo",
+        domain: "sentivenlimited.com",
+        autorizationToken: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzZW50aXZlbmxpbWl0ZWQuY29tIiwiaWF0IjoxNTQ2OTYxODE3NTkxLCJleHAiOjE1Nzg0OTc4MTc1OTEsImF1ZCI6InNlbnRpdmVubGltaXRlZC5jb20iLCJzdWIiOiJzZW50aXZlbmxpbWl0ZWQuY29tIn0.Jjt5n0zz0nCfG5N3l90-6mOnq9eDdUYt73MUvlIAPi8",
         event: "formvalid",
-        supportEmail: "support@strovildlimited.com"
+        supportEmail: "support@sentivenlimited.com"
     });
 });
 
 var getAddress = ({
-    site: "tempanow.com",
-    corp_id: "328",
-    country_code: "CY",
+    site: "emyela.net",
+    corp_id: "550",
+    country_code: "UK",
     addressContainer: $('.addressContainer')
 });
