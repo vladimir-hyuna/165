@@ -131,7 +131,7 @@
 
 /* home */
 
-$hero-full-screen-bg: url('../../images/bg-header.jpg') center center no-repeat;
+$hero-full-screen-bg: url('../images/bg-header.jpg') center center no-repeat;
 $hero-full-screen-bg-size: cover;
 $hero-full-screen-text-color: $white;
 
@@ -248,7 +248,7 @@ $marketing-site-three-up-width: 80vw;
 $marketing-site-hero-height: 100vh;
 
 .marketing-site-hero {
-  background: linear-gradient(180deg, rgba(86,86,86,0.8), rgba(0,29,76,0.8) 90.71%), url('../../images/bg-about-us.jpg') top right no-repeat;
+  background: linear-gradient(180deg, rgba(86,86,86,0.8), rgba(0,29,76,0.8) 90.71%), url('../images/bg-about-us.jpg') top right no-repeat;
   min-height: $marketing-site-hero-height;
   background-size: cover;
   display: flex;
